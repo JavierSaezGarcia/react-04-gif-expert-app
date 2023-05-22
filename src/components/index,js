@@ -1,0 +1,6 @@
+// Archivo barril para evitar monton de importaciones
+// No funciona
+// export * from './AddCategory';
+// export * from './GifGrid';
+// export * from './GifItem';
+
