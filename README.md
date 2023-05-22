@@ -37,6 +37,7 @@ Enjoy searching and exploring animated GIFs with the Animated GIF Searcher!
 
 - React.js
 - GIPHY API
+- VITE 
 - HTML5
 - CSS3
 - JavaScript
