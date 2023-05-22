@@ -2,6 +2,8 @@
 import { useEffect, useState } from "react";
 import { getGifs } from "../helpers/getGifs";
 
+
+// Debemos testear los argumentos de entrada y salida de la funcion
 export const useFetchGifs = ( category ) => {
   // Nunca dentro de una funcional component debemos hacer una llamada como esta porque cada vez que ejecutemos lo ejecuta todo el tiempo y eso es muy pesado.
     // getGifs(category); 
@@ -21,6 +23,7 @@ export const useFetchGifs = ( category ) => {
          
     }, [category]);
 
+    // Debemos testear la salida
     return {
         images,
         isLoading
